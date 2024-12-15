@@ -1,0 +1,50 @@
+.LogSty{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 25px;
+  }
+  .L-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-container{
+    height: 600px;
+    width: 500px;
+    border: 2px solid black ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .name , .password{
+    font-size: x-large;
+  }
+  
+  input[type = "text"]{
+    padding: 5px;
+    width: 375px;
+  }
+  
+  input[type = "password"]{
+    padding: 5px;
+    width: 375px;
+  }
+  
+  input[type = "email"]{
+    padding: 5px;
+    width: 375px;
+  }
+
+  button {
+    padding: 5px;
+    font-size: larger;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+  }
